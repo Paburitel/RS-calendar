@@ -1,0 +1,16 @@
+.modal-container {
+    position: relative;
+
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+    position: absolute;
+}
+
+.modal-content {
+    max-height: 90vh;
+    overflow: auto;
+}
+.modal-body ul li {
+    display: block;
+    border-top: 2px solid #f4f4f4;
+}

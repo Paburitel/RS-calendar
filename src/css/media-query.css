@@ -1,0 +1,24 @@
+@media all and (min-width: 800px){
+    .desktop {
+        display: block;
+    }
+    .mobile {
+        display: none;
+    }
+    .week {
+        min-height: 100px;
+
+    }
+
+}
+@media all and (max-width: 800px){
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    .mobile-time {
+        font-size: 0.8em;
+    }
+}

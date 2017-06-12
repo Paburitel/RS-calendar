@@ -1,0 +1,276 @@
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Cuprum',sans-serif;
+    min-height: 100%;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background: #fcfcfc;
+    position: relative;
+    display: flex !important;
+    top: 0;
+}
+h1 {
+    line-height: 2em;
+}
+.header-img {
+    padding: 20px 30px;
+    width: 30%;
+}
+.header-title {
+    width: 70%;
+    padding: 20px 30px;
+    text-align: right;
+}
+.calendar-container {
+
+}
+.week {
+    position: relative;
+    display: flex;
+    margin-top: -1px;
+}
+
+.days-name {
+    position: relative;
+    display: flex;
+    height: 25px;
+}
+
+.days-name div {
+    width: 100%;
+    border: 1px solid #DDD;
+    margin-left: -1px;
+    background-color: #DDD;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.day  {
+    position: relative;
+    width: 100%;
+    border: 1px solid #DDD;
+    margin-left: -1px;
+}
+.current-day {
+    background-color: #f7f7f7;
+    color: #ac2925;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.day-mobile {
+    position: relative;
+    background-color: #00aeef;
+    width: 100%;
+    border: 1px solid #DDD;
+    margin-left: -1px;
+}
+
+.day-date {
+    position: relative;
+    top: 0;
+    width: 100%;
+    text-align: right;
+    padding: 5px;
+}
+.day-disable {
+    color: #DDD;
+}
+
+.calendar-wrapper {
+    position: relative;
+
+
+}
+.calendar-control {
+    position: relative;
+}
+.year-ctrl, .month-ctrl {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 40px;
+    padding: 5px;
+}
+.year-month  {
+    margin: 0 30px;
+}
+.year-month p {
+    margin: 0;
+    line-height: 1em;
+}
+.arrow {
+    position: relative;
+    display: block;
+    width: 40px;
+    /*opacity: 0.3;*/
+}
+.arrow-left {
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.arrow-right {
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.arrow:hover {
+    opacity: 0.5;
+}
+.arrow-left:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background-color: #DDD;
+    margin-top: -7px;
+    left: 6px;
+    top: 50%;
+    border-radius: 2px;
+    transform: rotate(-40deg);
+}
+.arrow-left:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background-color: #DDD;
+    margin-bottom: -7px;
+    left: 6px;
+    bottom: 50%;
+    border-radius: 2px;
+    transform: rotate(40deg);
+}
+.arrow-right:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background-color: #DDD;
+    margin-top: -7px;
+    right: 6px;
+    top: 50%;
+    border-radius: 2px;
+    transform: rotate(40deg);
+}
+.arrow-right:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background-color: #DDD;
+    margin-bottom: -7px;
+    right: 6px;
+    bottom: 50%;
+    border-radius: 2px;
+    transform: rotate(-40deg);
+}
+.workshop {
+    background-color: #a3d0f7;
+}
+.workshop-prev {
+    background-color: #d9ecfb;
+}
+.lecture {
+    background-color: #afe0f1;
+}
+.lecture-prev {
+    background-color: #daf3fa;
+}
+.deadline {
+    background-color: #e98882;
+}
+.deadline-prev {
+    background-color: #f2d0ce;
+}
+.webinar {
+    background-color: #d1e6a5;
+}
+.webinar-prev {
+    background-color: #edf6d7;
+}
+.event {
+    background-color: #fbf1b4;
+}
+.event-prev {
+    background-color: #fffbde;
+}
+.events {
+    position: relative;
+}
+.events a {
+    color: #000000;
+}
+.events-prev {
+    position: relative;
+}
+.events-prev a {
+    color: #917a7a;
+}
+.trainer {
+    position: relative;
+    height: auto;
+    width: 100px;
+    margin: 10px;
+}
+.trainer a {
+    color: #2a1c4a;
+}
+.trainers {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.avatar-container {
+    height: 100px;
+    width: 100px;
+}
+footer {
+    position: absolute;
+    padding-top: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #192333;
+    color: #f4f4f4;
+}
+footer a {
+    color: #f4f4f4;
+}
+footer a:hover {
+    color: #B0B0BF;
+}
+.wrapper {
+    padding-bottom: 100px;
+
+}
+.map {
+    position: relative !important;
+    width: 100% !important;
+    height: 200px !important;
+}
+
+.feedback {
+    margin: 10px 0;
+}
+.form-feedback {
+
+}
+.group-label {
+    margin-right: 10px;
+}
+
+.selection-group {
+    margin: 15px 0;
+}
+
+
